@@ -13,5 +13,10 @@ body {
 
 h1 {
   font-family: "Merriweather", serif;
-  font-size: 32px;
+  /*font-size: 32px;*/
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  /*font-size: 32px;*/
 }
