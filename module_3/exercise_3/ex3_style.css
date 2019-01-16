@@ -1,0 +1,25 @@
+* {
+    height: 100%;
+}
+
+#left {
+    float: left;
+    border-width: 35%;
+    background-color: blue;
+}
+
+#right {
+    float: right;
+    border-width: 1px;
+    display: block;
+    background-color: green;
+}
+
+.divC {
+    border-style: solid;
+    width: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
