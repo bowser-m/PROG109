@@ -1,0 +1,33 @@
+#container {
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+}
+
+.black {
+    width: 10%;
+    height: 60px;
+    background-color: black;
+    float: left;
+    border: 1px solid black;
+}
+
+.white {
+    width: 10%;
+    height: 60px;
+    background-color: white;
+    float: left;
+    border: 1px solid black;
+}
+
+.row {
+    position: relative;
+    margin-left: 15%;
+    /* margin-right: 10%; */
+}
+
+.clear {
+    clear: both;
+}
