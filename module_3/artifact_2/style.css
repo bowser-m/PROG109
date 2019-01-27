@@ -1,31 +1,69 @@
+@import url("https://fontlibrary.org/face/old-standard");
+
+h1 {
+    background-color: darkcyan;
+    font-family: 'OldStandardRegular';
+    font-weight: normal;
+    font-style: normal;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    font-size: 64px;
+    z-index: 10;
+}
+
+body {
+    background-image: url("images/falcon9.jpg");
+}
+
 #container {
-    margin-top: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 5%;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .black {
-    width: 10%;
-    height: 60px;
+    width: 12.5%;
+    height: 64px;
     background-color: black;
     float: left;
-    border: 1px solid black;
 }
 
 .white {
-    width: 10%;
-    height: 60px;
+    width: 12.5%;
+    height: 64px;
     background-color: white;
     float: left;
-    border: 1px solid black;
 }
 
 .row {
     position: relative;
-    margin-left: 15%;
-    /* margin-right: 10%; */
+}
+
+.pieces {
+    width: 48px;
+    height: 48px;
+    margin-left: 25%;
+}
+
+#footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: darkblue;
+}
+
+.foot {
+    text-align: center;
 }
 
 .clear {
