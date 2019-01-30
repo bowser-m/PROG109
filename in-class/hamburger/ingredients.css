@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.bun-top {
+  height: 70px;
+  width: 60%;
+  background: /* #e5b05a */  #a37427;
+  border-radius: 100px 100px 20px 20px;
+  border-bottom: solid 10px rgba(0,0,0,.1);
+}
+
+.bun-top2 {
+  height: 50px;
+  width: 60%;
+  background: /* #e5b05a */  #d1a052;
+  border-radius: 100px 100px 20px 20px;
+  border-bottom: solid 10px rgba(0,0,0,.1);
+}
+
+.cheese {
+  height: /* 15px */ 10px;
+  width: /* 65% */ 45%;
+  background: /* #f2c120 */ #ddf220;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+#cheese2 {
+  height: /* 15px */ 10px;
+  width: /* 65% */ 65%;
+  background: /* #f2c120 */ #ffee00;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+.tomato {
+  height: 25px;
+  width: 50%;
+  background-color: /* #dd3710 */ #dd6c10;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+.meatball {
+  height: /* 60px */ 40px;
+  width: /* 70px */ 48px;
+  background: /* #74380d */ #2e1605;
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.meatball2 {
+  height: /* 60px */ 45px;
+  width: /* 70px */ 54px;
+  background: /* #74380d */ #70492d;
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.patty {
+  height: 35px;
+  width: 65%;
+  background: /* #ad370b */ #721e00;
+  border-radius: 15px;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+.patty2 {
+  height: 45px;
+  width: 65%;
+  background: /* #ad370b */ #a02b00;
+  border-radius: 15px;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+.pickle {
+  height: /* 30px */ 10px;
+  width: /* 50% */ 20%;
+  background: /* #3ac67d */ #269235;
+  border-radius: 0 0 100px 100px;
+  border-bottom: solid 10px #1c5f3d;
+}
+
+.onion {
+  width: /* 40% */ 30%;
+  background-color: /* #a039bf */ #9e2323;
+  border-top: dotted 20px rgba(255,255,255,.2);
+}
+
+.bun-bottom {
+  height: 35px;
+  width: 60%;
+  background: /* #e5b05a */ #a37427;
+  border-radius: 20px 20px 40px 40px;
+  border-top: solid 8px rgba(0,0,0,.1)
+}
+
+.bun-bottom2 {
+  height: 25px;
+  width: 60%;
+  background: /* #e5b05a */ #d1a052;
+  border-radius: 20px 20px 40px 40px;
+  border-top: solid 8px rgba(0,0,0,.1)
+}
+
+.plate {
+  height: 25px;
+  width: 80%;
+  background: /* #656565 */ #aaaaaa;
+  border-radius: 20px 20px 200px 200px;
+}
+
+.plate2 {
+  height: 25px;
+  width: 80%;
+  background: /* #656565 */ #e4e3b5;
+  border-radius: 20px 20px 200px 200px;
+}
