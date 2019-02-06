@@ -1,0 +1,71 @@
+<!doctype html> <!-- [1] -->
+<html lang="en">
+<head>
+	<meta charset="utf-8" /> <!-- [2] -->
+	<title>Errors-R-Us</title>
+</head>
+
+<body>
+	<!-- This document contains at least 12 errors and/or improper usages of HTML.  Can you spot them all? --> 
+	
+	<h1>This is a very important message from your sponsor</h1> <!-- [3] -->
+    
+    <p>Somewhere, buried deep in this seemingly innocent-looking page of HTML, are<br>
+       some sinister errors waiting to unleash their foul villainy on an unsuspecting<br>
+       public.</p> <!-- [4] -->
+       
+    <p>Your mission, <em style="color:red;">should you choose to accept it</em>, is to thwart their plans and<br>
+           rid this page of errors, once and for all.</p> <!-- [5] & [6] -->
+       
+	<p>This is a <b>line of <i>very important</i> text</b></p> <!-- [7] -->
+    <hr> <!-- [8] -->
+    
+    <div style="align-content:center;"> <!-- [9] -->
+    	<i>Congratulations! You are our lucky winner</i> <!-- [10] -->
+    </div>
+    
+    <h2>My Bucket List</h2> <!-- [11] -->
+    <ul>
+    	<li><p>Bucket of Fried Chicken</p></li>
+        <li>Bucket of Shrimp</li> <!-- [12] -->
+        <li>Bucket of Tartar Sauce</li>
+        <li>Bucket of Chili</li> <!-- [13] -->
+        <li>Bucket of Popcorn</li>
+    </ul> <!-- [14] -->
+</body> <!-- [15] -->
+</html>
+
+<!-- [1] Line 1
+        <!DOCTYPE html5> is incorrect. There should be no 5. -->
+<!-- [2] Line 4
+        'charset' attribute should be used when describing the charset (utf-8), not 'href'. -->
+<!-- [3] Line 11
+        Text should not be contained in tag brackets '<>' -->
+<!-- [4] Line 15
+        Forward slash '/' should be used to close tags, not backslash '\' -->
+<!-- [5] Line 17
+        Inline css styles need to be declared in the 'style' attribute.
+        'font-color' css property does not exist -->
+<!-- [6] Line 17-18
+        <em> cannot be a parent of any block elements. -->
+<!-- [7] Line 20
+        Tags should be closed inner -> outer (<b> <i> </i> </b>) -->
+<!-- [8] Line 21
+        <hr> does not need a closing tag. -->
+<!-- [9] Line 23
+        Inline css styles need to be declared in the 'style' attribute. 
+        'align' css property does not exist -->
+<!-- [10] Line 24
+        <i> tag needs to be closed -->
+<!-- [11] Line 27
+        [Optional] Keep tags lower-case for readability. -->
+<!-- [12] Line 30
+        Need to close list item -->
+<!-- [13] Line 32
+        Close list item with </li>, not </ol> -->
+<!-- [14] Line 34
+        Need to close the <ul> tag -->
+<!-- [15] Line 35
+        Need to close the <body> tag -->
+
+<!-- Michael Bowser | 02.06.2019 -->
