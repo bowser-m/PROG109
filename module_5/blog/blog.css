@@ -1,0 +1,130 @@
+@import url(https://fontlibrary.org/face/glacial-indifference);
+
+body {
+    background-color: rgb(75, 75, 75);
+}
+
+a:link {
+    color: rgb(0, 200, 200);
+}
+
+a:visited {
+    color: purple;
+}
+
+#top {
+    background-image: url("img/mtrainier.jpg");
+    width: 500px;
+    height: 194px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+#nav {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    margin-top: 1%;
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+#name {
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: left;
+    margin-top: 26%;
+}
+
+#left {
+    margin-left: 25%;
+    margin-right: 5%;
+    width: 30%;
+    padding-left: 2px;
+}
+
+#right {
+    margin-right: 20%;
+    width: 15%;
+    height: 200px;
+}
+
+#bottom {
+    width: 18%;
+    height: 26px;
+    left: 41%;
+    bottom: 5px;
+    background-color: white;
+    border: 2px solid black;
+    position: fixed;
+}
+
+.mid {
+    margin-top: 1%;
+    float: left;
+    background-color: white;
+    border: 3px outset darkgreen;
+}
+
+hr {
+    color: black;
+    background-color: black;
+    width: 75%;
+    height: 3px;
+}
+
+h3 {
+    margin-top: 2px;
+    margin-bottom: 0%;
+    font-size: 24px;
+    font-family: 'GlacialIndifferenceBold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+h4 {
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.side {
+    margin-top: 5%;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+#foot {
+    font-size: 20px;
+    text-align: center;
+}
+
+.dir {
+    margin-left: 2%;
+}
+
+.source {
+    text-align: right;
+    font-size: 12px;
+    font-style: italic;
+    margin-right: 1px;
+}
+
+.loc {
+    font-family: 'GlacialIndifferenceItalic';
+    font-weight: normal;
+    font-style: normal;
+}
