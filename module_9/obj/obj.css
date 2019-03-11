@@ -1,0 +1,19 @@
+#container {
+    margin: 30px auto;
+    width: 500px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+}
+
+#output {
+    margin: 50px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid lightsteelblue;
+    width: 380px;
+    height: 200px;
+    background-color: ghostwhite;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 1.2em;
+}
+  
