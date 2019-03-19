@@ -19,11 +19,11 @@ class Race {
     }
 
     toString() {
-        return this.name + ": <br>"
-                + "HP: " + this.health
-                + "<br>Stamina: " + this.stamina
-                + "<br>Speed: " + this.speed
-                + "<br>Age: " + this.age();
+        return "<strong class=\"name\">" + this.name + "</strong><br><br>"
+                + "<strong>HP</strong>: " + this.health
+                + "<br><strong>Stamina</strong>: " + this.stamina
+                + "<br><strong>Speed</strong>: " + this.speed
+                + "<br><strong>Age</strong>: " + this.age();
     }
 }
 
@@ -45,7 +45,7 @@ class Ability {
     }
 
     toString() {
-        return this.name + ": " + this.power() + "% Power, " + this.accuracy() + "% Accuracy";
+        return "<strong>" + this.name + "</strong>: " + this.power() + "% <em>power</em> | " + this.accuracy() + "% <em>accuracy</em>";
     }
 }
 
@@ -57,9 +57,20 @@ class ClassType {
     }
 
     toString() {
-        return this.name + ": <br>"
+        return "<strong class=\"name\">" + this.name + "</strong><br><br>"
                 + this.ability0.toString() + "<br>"
                 + this.ability1.toString();
+    }
+}
+
+class Character {
+    constructor(race, classType) {
+        this.race = race;
+        this.classType = classType;
+    }
+
+    toString() {
+        return this.race.toString() + "<hr>" + this.classType.toString();
     }
 }
 
@@ -82,16 +93,6 @@ var class_archer = new ClassType("Archer", archer_ab0, archer_ab1);
 var class_swordsman = new ClassType("Swordsman", swordsman_ab0, swordsman_ab1);
 var classes = [class_archer, class_swordsman];
 
-// var sel = prompt("Number: 0-2");
-// document.getElementById("stats").innerHTML = 
-//                     "Health: " + races[sel].health
-//                     + "<br>Stamina: " + races[sel].stamina
-//                     + "<br>Speed: " + races[sel].speed
-//                     + "<br>Age: " + races[sel].age();
+var char = new Character(races[rand(0, 2)], classes[rand(0, 1)]);
 
-var r = rand(0, 2);
-var c = rand(0, 1);
-
-document.getElementById("stats").innerHTML = races[r].toString() + "<hr>";
-
-document.getElementById("class").innerHTML = classes[c].toString();
+document.getElementById("stats").innerHTML = char.toString();

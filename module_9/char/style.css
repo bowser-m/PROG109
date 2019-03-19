@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+#stats {
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#desc {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name {
+    font-size: 1.5em;
+}
