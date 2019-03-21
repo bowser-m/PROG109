@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+
+#navbar a:link, #navbar a:visited, #navbar a:hover, #navbar a:active {
+    color: white;
+}
+
+#navbar div{
+    position: relative;
+    top: 0px;
+    height: 50px;
+    width: 120px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+#navbar div.navlink:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+#navbar div.navlink:active {
+    background-color: rgb(75, 75, 75);
+}
+
+#navbar div.navleft {
+    left: 0px;
+    float: left;
+}
+
+#navbar div.navright {
+    right: 0px;
+    float: right;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
