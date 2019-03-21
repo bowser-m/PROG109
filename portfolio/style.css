@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+body {
+    background-color: rgb(23, 24, 28);
+    color: white;
+}
 
 #navbar {
     position: fixed;
@@ -6,12 +11,14 @@
     left: 0px;
     right: 0px;
     height: 50px;
-    background-color: black;
+    background-color: rgb(18, 19, 23);
     color: white;
+    border-bottom: 1px solid white;
 }
 
-#navbar a:link, #navbar a:visited, #navbar a:hover, #navbar a:active {
+#navbar a:link, #navbar a:visited, #navbar a:hover, #navbar a:active, #pagenav a:link, #pagenav a:visited, #pagenav:hover, #pagenav a:active {
     color: white;
+    text-decoration: none;
 }
 
 #navbar div{
@@ -25,11 +32,11 @@
     line-height: 50px;
 }
 
-#navbar div.navlink:hover {
+.navlink:hover {
     background-color: rgb(40, 40, 40);
 }
 
-#navbar div.navlink:active {
+.navlink:active {
     background-color: rgb(75, 75, 75);
 }
 
@@ -43,10 +50,83 @@
     float: right;
 }
 
-.red {
-    background-color: red;
+#navbar div.navsmall {
+    width: 100px;
 }
 
-.blue {
-    background-color: blue;
+#navbar div.navlarge {
+    width: 150px;
+}
+
+h1 {
+    margin-top: 5%;
+    font-size: 3.5em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 5%;
+}
+
+.main {
+    width: 75%;
+    margin: auto;
+    /* background-color: rgb(68, 68, 68); */
+    padding-top: 1%;
+}
+
+.main div {
+    float: left;
+}
+
+.main h3 {
+    font-size: 1.25em;
+    padding-left: 8%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main a:visited {
+    color: rgb(38, 106, 129);
+}
+
+.main a:link {
+    color: rgb(75, 172, 204);
+}
+
+.main p {
+    padding-left: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main li {
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pagenav {
+    position: fixed;
+    right: 0px;
+    top: 51px;
+    height: 450px;
+    width: 150px;
+    background-color: rgb(18, 19, 23);
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#pagenav div {
+    float: top;
+    top: 0px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.pagenavfiller {
+    height: 100px;
 }
